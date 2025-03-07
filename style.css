@@ -1,1 +1,9 @@
-/* Add styles here */
+/* fonts*/
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+h1.title {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
