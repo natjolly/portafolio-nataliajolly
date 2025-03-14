@@ -28,12 +28,19 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <!-- fin importacion bootstrap  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
   <nav>
 
-    <nav class="nav_bar">
+    <nav class="navbar navbar-expand-lg nav-bar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Portafolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,54 +49,66 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
+            <li class="hd">
               <a class="nav-link" href="#herramientas digitales">Herramientas</a>
             </li>
-            <li class="nav-item">
+            <li class="pr">
               <a class="nav-link" href="#proyectos">Proyectos</a>
             </li>
-            <li class="nav-item">
+            <li class="con">
               <a class="nav-link" href="#Contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-
-    <section>
+    <section class="container custom-bg">
       <h1 class="title"> Natalia Jolly </h1>
-      <p class="parrafo">¡Hola! Soy Natalia, tengo 20 años y actualmente curso el tercer año de la Licenciatura en Diseño Integral en la
-        Universidad Autónoma Metropolitana. Me apasiona el diseño audiovisual (¡el cine es mi gran inspiración!), pero
-        también he explorado diversas áreas como el diseño gráfico, industrial y web.
+    </section>
+    <section class="container">
 
-        A diferencia de un programa de diseño tradicional, mi experiencia se enfoca en abordar problemáticas complejas
-        desde múltiples perspectivas, integrando distintas disciplinas del diseño para encontrar soluciones innovadoras
-        y funcionales. En otras palabras, ¡he hecho de todo!.
+      <div class="row">
+        <div class="col-md-8">
 
-        Para mí, el diseño no es solo técnica, sino una forma de pensar, crear y transformar el mundo que nos rodea.
-        Pero más que contarlo, prefiero mostrarlo. Aquí encontrarán algunos de mis proyectos que reflejan esta visión
-        integral del diseño. ¡Espero que los disfruten!
-      </p>
-      <img src="/src/perfil.jpg" width="300" />
+          <p class="parrafo">¡Hola! Soy Natalia, tengo 20 años y actualmente curso el tercer año de la Licenciatura en Diseño Integral en la
+            Universidad Autónoma Metropolitana. Me apasiona el diseño audiovisual (¡el cine es mi gran inspiración!), pero
+            también he explorado diversas áreas como el diseño gráfico, industrial y web.
 
+            A diferencia de un programa de diseño tradicional, mi experiencia se enfoca en abordar problemáticas complejas
+            desde múltiples perspectivas, integrando distintas disciplinas del diseño para encontrar soluciones innovadoras
+            y funcionales. En otras palabras, ¡he hecho de todo!.
+
+            Para mí, el diseño no es solo técnica, sino una forma de pensar, crear y transformar el mundo que nos rodea.
+            Pero más que contarlo, prefiero mostrarlo. Aquí encontrarán algunos de mis proyectos que reflejan esta visión
+            integral del diseño. ¡Espero que los disfruten!
+          </p> 
+      </div>
+      <div class="col-md-4">
+      <img src="/src/perfil.jpg" class="foto-de-perfil" class="circle-image"/>
+  </div>
     </section>
 
+    <section class="container">
     <section id="=herramientas digitales" >
+      <div class="row">
+        <div class="col-md-8">
       <h2 class="subtitulo">Herramientas Digitales</h2>
-
+      
       <img src="src/img/ai.png" width="100" />
       <img src="src/img/ps.png" width="100" />
       <img src="src/img/ae.png" width="100" />
       <img src="src/img/id.png" width="100" />
       <img src="src/img/acad.png" width="100" />
       <img src="src/img/3max.png" width="100" />
-    </section>
+        </div>
+    </div>
+  </section>
 
+  <section class="container">
+    
     <section id="proyectos">
+      <div class="row">
+        <div class="col-md-8">
       <h2 class="subtitulo">Proyectos</h2>
       <h3 class="subsubtitulo">Juego para el desarollo motor infantil “Serpinudos”</h3>
       <p class="parrafo">Ejercicio enfocado en diseñar un sistema de juego para niños de 6 a 8 años, con el objetivo de fortalecer la
@@ -101,7 +120,10 @@
         evaluaciones con usuarios demostraron un alto nivel de interés por parte de los niños y confirmaron que el
         diseño cumplía con los requisitos de desarrollo motor establecidos.
       </p>
-      <img src="src/img/serpinudos.png" width="300" />
+      </div>
+      <div class="col-md-4">
+      <img src="src/img/serpinudos.png" width="300" /></div>
+        <div class="col-md-8">
       <h3 class="subsubtitulo">Identidad Gráfica “Centro Cultural Ecatedirco”</h3>
       <p class="parrafo">Este proyecto propone un espacio dedicado a la promoción y difusión de las artes, la cultura y el conocimiento
         dentro de una comunidad. Las actividades y servicios incluyen:
@@ -115,7 +137,11 @@
       del espacio. Se eligió una tipografía estrecha y alargada, con un desnivel entre letras, buscando transmitir una
       esencia innovadora y juvenil.
       </p>
-      <img src="src/img/ecatedrico.png" width="300" />
+      </div>
+      
+      <div class="col-md-4">
+      <img src="src/img/ecatedrico.png" width="300" /></div>
+      <div class="col-md-8">
       <h3 class="subsubtitulo">Propuesta de un sistema vial “ciclo-incluyente”</h3>
       <p class="parrafo">Este ejercicio exploró una solución innovadora para la organización del espacio vial, abordando el problema
         desde una perspectiva diferente a la tradicional. El objetivo fue reducir la ansiedad generada por la
@@ -130,10 +156,14 @@
         <li>Conductores de servicios: rutas organizadas que les permitieran desempeñar su trabajo sin presiones.</li>
       </ul>
       </p>
-      <img src="src/img/cicloincluyente.png" width="300" />
+      </div>
+      <div class="col-md-4">
+      <img src="src/img/cicloincluyente.png" width="300" /></div>
     </section class="proyectos">
 
     <section id="Contacto">
+      <section class="container">
+        <div class="row">
       <h2 class="subtitulo">Contacto</h2>
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
         viewBox="0 0 16 16">
@@ -153,6 +183,7 @@
           d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
       </svg>
       <p class="parrafo">natalia.jolly@cua.uam.mx</p>
+      </div>
     </section>
 
 </body>

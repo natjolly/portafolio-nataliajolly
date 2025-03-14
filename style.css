@@ -1,10 +1,13 @@
 
-
-
-/* fonts*/
+:root{
+    --titulo-color-rosa: #F8E5E5;
+    --color-negro:#191516;
+}
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/*fonts*/
+body{
+    background-color: var(--titulo-color-rosa);
+}
     /*titulos*/
 h1.title {
     font-family: "League Gothic", sans-serif;
@@ -12,8 +15,7 @@ h1.title {
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
-
-
+    color: var(--titulo-color-rosa)
 }
 h2.subtitulo {
     font-family: "League Gothic", sans-serif;
@@ -29,16 +31,61 @@ h3.subsubtitulo {
     font-style: normal;
     font-size: 25px;
 }
+
 a.navbar-brand {
     font-family: "League Gothic", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;}
-
+    font-size: 40px;
+    color: var(--titulo-color-rosa)
+}
+li.hd{
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--titulo-color-rosa)
+}
+li.pr{
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--titulo-color-rosa)
+}
+li.con{
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--titulo-color-rosa)
+}
     /*cuerpo*/
 p.parrafo {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+.foto-de-perfil {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+}
+.tiulo{
+    background-color: var(--color-negro)
+}
+.navbar{
+    background-color: var(--color-negro);
+}
+
+.custom-bg {
+    background-color: var(--color-negro);
+    padding: 20px;
+    text-align: center;
+  
 }
