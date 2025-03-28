@@ -8,22 +8,87 @@
 body{
     background-color: var(--titulo-color-rosa);
 }
-    /*titulos*/
+    /*header*/
+        /*navbar*/
+        /*titulo nav bar*/
+
+.navbar{
+    background-color: var(--color-negro);
+}
+    
+    a.navbar-brand {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 20px;
+    color: var(--titulo-color-rosa)
+}
+        /*links nav bar*/
+ .navbar-nav .nav-link {
+    color: var(--titulo-color-rosa);
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.foto-de-perfil {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+}
+        /*titulo*/
 h1.title {
     font-family: "League Gothic", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
+    padding-left: 40px;
     color: var(--titulo-color-rosa)
+}   
+        /*color titulo*/
+.custom-bg {
+    background-color: var(--color-negro);
+    
+    width: 100vw;
+    margin: 0; 
+    margin-bottom: 100px;
 }
+/*subtitulos*/
+    /*color y fuente*/
 h2.subtitulo {
     font-family: "League Gothic", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
+    color: var(--titulo-color-rosa)
 }
+    /*cajita*/
+ .subtitulo {
+    position: relative;
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color:var(--color-negro); 
+    border-radius: 8px; 
+  }
+  
+  .subtitulo::before {
+    content: ""; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3498db;
+    z-index: -1; 
+    border-radius: 8px; 
+  }
+    /*fuente color h3*/
 h3.subsubtitulo {
     font-family: "League Gothic", sans-serif;
     font-optical-sizing: auto;
@@ -31,61 +96,33 @@ h3.subsubtitulo {
     font-style: normal;
     font-size: 25px;
 }
+    /*spacing*/
+.subtitulo {
+    margin-top: 100px;
+    margin-bottom: 40px;
 
-a.navbar-brand {
-    font-family: "League Gothic", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    color: var(--titulo-color-rosa)
 }
-li.hd{
-    font-family: "League Gothic", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: var(--titulo-color-rosa)
-}
-li.pr{
-    font-family: "League Gothic", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: var(--titulo-color-rosa)
-}
-li.con{
-    font-family: "League Gothic", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: var(--titulo-color-rosa)
-}
-    /*cuerpo*/
+
+    /*parrafos-texto*/
+
 p.parrafo {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
-.foto-de-perfil {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    display: block;
-}
-.tiulo{
-    background-color: var(--color-negro)
-}
-.navbar{
-    background-color: var(--color-negro);
+.parrafo {
+    margin-bottom: 20px; 
+  }
+  .lista {
+    margin-bottom: 20px; 
+  }
+ 
+
+.bg-custom {
+    background-color: #F8E5E5;
 }
 
-.custom-bg {
-    background-color: var(--color-negro);
-    padding: 20px;
-    text-align: center;
-  
+/*spacing secciones*/
+.container {
+    margin-bottom: 80px;
 }
