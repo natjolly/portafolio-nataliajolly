@@ -39,10 +39,9 @@
 <body class="bg-custom">
 
   <nav>
-
     <nav class="navbar navbar-expand-lg nav-bar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portafolio</a>
+        <a class="navbar-brand nav-link-transition " href="#">Portafolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,18 +49,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="hd">
-              <a class="nav-link" href="#herramientasdigitales">Herramientas</a>
+              <a class="nav-link nav-link-transition" href="#herramientasdigitales">Herramientas</a>
             </li>
             <li class="pr">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
+              <a class="nav-link nav-link-transition" href="#proyectos">Proyectos</a>
             </li>
             <li class="con">
-              <a class="nav-link" href="#Contacto">Contacto</a>
+              <a class="nav-link nav-link-transition" href="#Contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  </nav>
+  
+  <style>
+    .nav-link-transition {
+      color: #F8E5E5; 
+      transition: color 0.3s ease; 
+    }
+  
+    .nav-link-transition:hover {
+      color: #588157; 
+    }
+  </style>
 
     <section class="custom-bg">
       <h1 class="title"> Natalia Jolly </h1>
@@ -85,7 +96,7 @@
           </p> 
       </div>
       <div class="col-md-4">
-      <img src="/src/perfil.jpg" class="foto-de-perfil" class="circle-image"/>
+      <img src="./src/perfil.jpg" class="foto-de-perfil" class="circle-image"/>
   </div>
     </section>
 
